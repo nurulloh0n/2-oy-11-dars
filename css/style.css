@@ -370,3 +370,253 @@ p{
 .footer-button:hover{
     background-color: var(--purple);
 }
+
+
+@media (max-width:689px){
+    .container {
+        max-width: 690px;
+    }
+    .header-container {
+        margin-bottom: 64px;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title {
+        margin-bottom: 27px;
+        font-size: 44px;
+    }
+    .hero-text {
+        width: 573px;
+    }
+    .second-section {
+        grid-template-columns:repeat(3,1fr);
+        gap: 23px;
+        margin-bottom: 120px;
+    }
+    .item1 {
+        width: 333px;
+        height: 364px;
+    }
+
+    .item2 {
+        width: 155px;
+        height: 182px;
+    }
+
+    .item3 {
+        width: 155px;
+        height: 182px;
+    }
+
+    .item4 {
+        width: 333px;
+        height: 158px;
+    }
+
+    .item5 {
+        width: 333px;
+        height: 182px;
+        grid-column:1/2 ;
+        grid-row: 3/4;
+    }
+
+    .item6 {
+        width: 333px;
+        height: 182px;
+        grid-column: 2/4;
+        grid-row: 3/4;
+    }
+
+    .third-section {
+        gap: 69px;
+        margin-left: -64px;
+        max-width: 772px;
+    }
+    .girl-photo {
+        width: 364px;
+        height: 364px;
+    }
+    .third-sec-info {
+        width: 339px;
+    }
+    .third-sec-title {
+        width: 339px;
+        font-size: 32px;
+    }
+
+    .work-images {
+        margin-left: -350px;
+    }
+
+
+    .booking {
+        height: 352px;
+        max-width: 690px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .booking-title {
+        text-align: center;
+    }
+    .booking-text {
+        text-align: center;
+        margin-bottom: 26px;
+    }
+
+}
+
+@media (max-width:343px){
+    .container {
+        max-width: 343px;
+    }
+    .header-container{
+        margin-bottom: 32px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .logo{
+        width: 48px;
+        height: 48px;
+    }
+    .header-button {
+        font-size: 14px;
+        padding: 8px 27px;
+    }
+
+    .hero {
+        margin-bottom: 32px;
+        max-width: 343px;
+    }
+    .title {
+        font-size: 36px;
+        margin-bottom: 16px;
+    }
+    .hero-text {
+        width: 285px;
+    }
+    .second-section {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .item1 {
+        grid-column:1/3 ;
+        grid-row:1/3 ;
+        width: 343px;
+    }
+
+    .item2 {
+        grid-column:1/2 ;
+        grid-row:3/4 ;
+        width: 159px;
+    }
+
+    .item3 {
+        grid-column:2/3 ;
+        grid-row:3/4 ;
+        width: 159px;
+    }
+
+    .item4 {
+        grid-column:1/3 ;
+        grid-row:4/5 ;
+        width: 343px;
+    }
+
+    .item5 {
+        grid-column:1/3 ;
+        grid-row:5/6 ;
+        width: 343px;
+    }
+
+    .item6 {
+        grid-column:1/3 ;
+        grid-row:6/7 ;
+        width: 343px;
+    }
+
+    .third-section {
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        max-width: 343px;
+    }
+    .girl-photo {
+        margin: auto;
+    }
+    .third-sec-info {
+        margin: auto;
+    }
+    .third-sec-title {
+        font-size: 26px;
+        text-align: center;
+    }
+    .third-sec-text {
+        text-align: center;
+    }
+    .third-sec-link {
+        padding: 8px 28px;
+        font-size: 14px;
+        margin-left: 83px;
+        margin-bottom: 100px;
+    }
+
+    .work-title {
+        text-align: center;
+        font-size: 24px;
+    }
+    .work-images {
+        margin-left: -170px;
+    }
+    .work-photo1 {
+        width: 270px;
+        height: 180px;
+    }
+    .work-photo2 {
+        width: 270px;
+        height: 180px;
+    }
+    .work-photo3 {
+        width: 270px;
+        height: 180px;
+    }
+
+    .footer-container {
+    }
+    .booking {
+        padding-top: 49px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 343px;
+        height: 352px;
+    }
+    .booking-info {
+        transform: translateX(20px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .booking-title {
+        font-size: 26px;
+    }
+    .booking-text {
+        text-align: center;
+        max-width: 295px;
+        font-size: 16px;
+        color: var(--white);
+        line-height: 26px;
+    }
+    .booking-button {
+        transform: translateX(20px);
+        padding: 8px 28px;
+        font-size: 14px;
+    }
+
+}
